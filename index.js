@@ -9,7 +9,7 @@ window.onload = function() {
 
     connect_button.onclick = function() {
         const username = username_input.value;
-        const game = gameselect.options[gameselect.selectedIndex].text;
+        const game = gameselect.options[gameselect.selectedIndex].value;
 
         window.location.href = "/IO/" + game + ".html";
 
