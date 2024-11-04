@@ -11,7 +11,7 @@ window.onload = function() {
         const username = username_input.value;
         const game = gameselect.options[gameselect.selectedIndex].value;
 
-        window.location.href = "/IO/" + game + ".html";
+        window.location.href = "/IO/" + game + ".html?u=" + username;
 
         console.log("Joining game: " + game + " with username: " + username);
     }
