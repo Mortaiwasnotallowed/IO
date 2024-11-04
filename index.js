@@ -11,7 +11,7 @@ window.onload = function() {
         const username = username_input.value;
         const game = gameselect.options[gameselect.selectedIndex].text;
 
-        window.location.href = "/slither.html";
+        window.location.href = "/IO/" + game + ".html";
 
         console.log("Joining game: " + game + " with username: " + username);
     }
